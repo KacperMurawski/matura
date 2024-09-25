@@ -1,0 +1,7 @@
+funkcja suma_cyfr(liczba)
+	suma <- 0
+	dopóki liczba > 0 wykonuj 
+		ostatnia_cyfra <- liczba mod 10
+		suma <- suma + ostatnia_cyfra
+		liczba <- liczba div 10
+	zwróć suma

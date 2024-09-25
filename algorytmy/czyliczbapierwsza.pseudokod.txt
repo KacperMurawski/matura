@@ -1,0 +1,20 @@
+funkcja czy_pierwsza(liczba)
+	jeżeli liczba < 2 to
+		zwróć fałsz
+	dla i = 2,3,..,liczba-1 wykonaj
+		jeżeli liczba mod i = 0 to
+			zwróć fałsz
+	zwróć prawda
+
+
+lepsza wersja, którą należy pamiętać
+
+funkcja czy_pierwsza(liczba)
+	jeżeli liczba < 2 to
+		zwróć fałsz
+	dla i = 2,3,..,pierwiastek(liczba) wykonaj                #pierwiastek(liczba) jest l. całkowitą
+		jeżeli liczba mod i = 0 to
+			zwróć fałsz
+	zwróć prawda
+
+
