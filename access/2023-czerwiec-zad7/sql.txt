@@ -1,0 +1,3 @@
+SELECT Urzadzenia.typ_u, Count(Instalacje.Identyfikator) AS PoliczOfIdentyfikator
+FROM Urzadzenia INNER JOIN Instalacje ON Urzadzenia.kod_u = Instalacje.kod_u
+GROUP BY Urzadzenia.typ_u;

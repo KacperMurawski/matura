@@ -1,0 +1,4 @@
+pesel importujemy jako tekst (0621-importowanie tego jako liczba spowoduje usuniecie 0, co jest bledem w peselu)
+
+
+uwazać przy importowaniu daty (zwrócić uwagę na pozycje dnia, miesiąca i roku)

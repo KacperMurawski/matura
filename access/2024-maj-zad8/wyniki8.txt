@@ -1,0 +1,22 @@
+8.1
+Imie	Nazwisko	SumaOfKwota
+Rafael	Blake	3700
+8.2
+Miesiac	SumaOfSumaOfPunkty
+11	1766
+8.3
+Imie	Nazwisko	NrRejestracyjny
+Sandra	Wheeler	BHW4028
+Quynn	Travis	CJX1859
+Jasper	Santos	KNM7950
+HonoratoRoth	NIP6570
+Ivy	Bowen	QFR8936
+Helen	White	SRU9727
+Quentin	Tyler	XHK9060
+Kevin	Wright	YYS1077
+
+8.4 (poniższy sql zapisuję do arkusza egzaminacyjnego)
+
+SELECT Fotoradar.IdFotoradaru
+FROM Fotoradar LEFT JOIN Rejestr ON Fotoradar.IdFotoradaru = Rejestr.IdFotoradaru
+WHERE (((Rejestr.IdFotoradaru) Is Null));
